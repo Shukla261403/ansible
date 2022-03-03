@@ -6,13 +6,13 @@
    tags: provisioning
 
    vars:
-     keypair: MyEC2Key
+     keypair: Helloworld
      instance_type: t2.small
-     image: ami-020db2c14939a8efb
+     image: ami-0851b76e8b1bce90b
      wait: yes
      group: webserver
      count: 1
-     region: us-east-2
+     region: ap-south-1
      security_group: my-jenkins-security-grp
    
    tasks:
